@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
+.Container {
+    margin-left: 1250px;
+}
+
+.ColumnFirst {
+    margin: 10px;
+    display: block;
+    place-items: left;
+}
+
+.ColumnFirstBook {
+    margin-top: -18px;
+    margin-left: 35px;
+}
+
+.Column {
+    float: left;
+    padding: 5px;
+}
+
+::placeholder {
+    opacity: 15;
+    font-size: 16px;
+    font-family: inherit;
+    padding-inline-start: 52px;
+}
